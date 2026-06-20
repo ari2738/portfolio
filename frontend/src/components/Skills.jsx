@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
-const API_URL = ''  // use relative path for proxying
+const API_URL = 'https://portfolio-2-jkvm.onrender.com'
 
 const catStyle = {
   'Machine Learning': { bg: 'var(--purple-lt)', color: 'var(--purple)', icon: 'ti-brain',   bar: '#7F77DD' },

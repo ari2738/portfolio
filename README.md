@@ -48,7 +48,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Backend runs at: http://localhost:5000
 
 ### 2. Frontend (React)
 
@@ -58,18 +57,20 @@ npm install
 npm run dev
 ```
 
-Frontend runs at: http://localhost:5173
 
 ---
 
 ## Pages
 
-| URL      | Page             |
-|----------|------------------|
-| /        | Public portfolio |
-| /admin   | Admin panel      |
+<img width="1920" height="1020" alt="Screenshot 2026-06-20 155145" src="https://github.com/user-attachments/assets/b7b1f359-44ed-499f-9da5-a06089d2b830" />
 
----
+<img width="1920" height="1020" alt="Screenshot 2026-06-20 155156" src="https://github.com/user-attachments/assets/a1e1b669-5e65-47fa-a905-3a35cae4a98b" />
+
+<img width="1920" height="1020" alt="Screenshot 2026-06-20 155209" src="https://github.com/user-attachments/assets/dea7fdfe-9230-41cd-9aff-419e11398344" />
+
+<img width="1920" height="1020" alt="Screenshot 2026-06-20 155216" src="https://github.com/user-attachments/assets/ade1280b-5d6a-4b92-9b45-3f0f6141d8d0" />
+
+
 
 ## API Endpoints
 
@@ -113,5 +114,4 @@ DATABASE_URL=postgresql://postgres:yourpassword@localhost:5432/portfolio_db
 4. Start: `python app.py`
 5. Add DATABASE_URL in environment variables
 
-### Update API URL for production
-In frontend/vite.config.js change proxy to your Render URL.
+
