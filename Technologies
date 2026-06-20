@@ -1,0 +1,37 @@
+Frontend
+
+React.js — UI library
+Vite — build tool / dev server
+React Router DOM — page routing (/ and /admin)
+Axios — API calls to backend
+Tabler Icons — icon set
+CSS (custom, no framework) — styling
+
+
+Backend
+
+Flask (Python) — REST API framework
+Flask-CORS — handles cross-origin requests between frontend and backend
+Flask-SQLAlchemy — ORM for database models
+python-dotenv — manages environment variables
+Gunicorn — production server (used when deployed)
+
+
+Database
+
+SQLite — local development database
+PostgreSQL — production database (used when deployed on Render)
+
+
+Version Control & Deployment
+
+Git & GitHub — version control and code hosting
+Vercel — frontend hosting
+Render — backend + PostgreSQL hosting
+
+
+Architecture pattern
+
+REST API — Flask exposes /api/projects, /api/skills, /api/contact etc.
+CRUD operations — Create, Read, Update, Delete for projects/skills via Admin Panel
+Client-Server architecture — React (client) talks to Flask (server) over HTTP
