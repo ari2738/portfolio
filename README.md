@@ -1,6 +1,6 @@
 # Personal Portfolio — Full Stack
 
-React + Flask + PostgreSQL | Deployed on Vercel + Render
+React + Flask + PostgreSQL | Deployed on netlify + Render
 
 ---
 
@@ -68,6 +68,8 @@ npm run dev
 
 <img width="1920" height="1020" alt="Screenshot 2026-06-20 155209" src="https://github.com/user-attachments/assets/dea7fdfe-9230-41cd-9aff-419e11398344" />
 
+<img width="1920" height="1020" alt="Screenshot 2026-06-20 172523" src="https://github.com/user-attachments/assets/e6fe74b8-6c1b-4b40-8706-be5ae17eff38" />
+
 <img width="1920" height="1020" alt="Screenshot 2026-06-20 155216" src="https://github.com/user-attachments/assets/ade1280b-5d6a-4b92-9b45-3f0f6141d8d0" />
 
 
@@ -102,10 +104,10 @@ DATABASE_URL=postgresql://postgres:yourpassword@localhost:5432/portfolio_db
 
 ## Deploy
 
-### Frontend → Vercel
+### Frontend → netlify
 1. Push frontend/ to GitHub
-2. Go to vercel.com → Import repo
-3. Deploy → get yourname.vercel.app
+2. Go to netlify.com → Import repo
+3. Deploy → get yourname.netlify.app
 
 ### Backend → Render
 1. Push backend/ to GitHub
