@@ -1,0 +1,99 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --blue:    #185FA5;
+  --blue-lt: #E6F1FB;
+  --blue-dk: #0C447C;
+  --teal:    #0F6E56;
+  --teal-lt: #E1F5EE;
+  --purple:  #534AB7;
+  --purple-lt: #EEEDFE;
+  --amber:   #854F0B;
+  --amber-lt:#FAEEDA;
+  --coral:   #993C1D;
+  --coral-lt:#FAECE7;
+  --green:   #3B6D11;
+  --green-lt:#EAF3DE;
+  --border:  #e5e7eb;
+  --bg:      #ffffff;
+  --bg2:     #f9fafb;
+  --text:    #111827;
+  --text2:   #6b7280;
+  --text3:   #9ca3af;
+  --radius:  8px;
+  --radius-lg: 12px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+a { text-decoration: none; color: inherit; }
+button { font-family: inherit; cursor: pointer; }
+input, textarea, select { font-family: inherit; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+.btn-primary {
+  padding: 8px 18px;
+  border-radius: var(--radius);
+  background: var(--blue);
+  color: var(--blue-lt);
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.btn-primary:hover { opacity: 0.9; }
+
+.btn-outline {
+  padding: 8px 18px;
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-outline:hover { background: var(--bg2); }
+
+.badge {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 500;
+}
+.badge-live   { background: var(--green-lt); color: var(--green); }
+.badge-wip    { background: var(--amber-lt); color: var(--amber); }
+.badge-ml     { background: var(--purple-lt); color: var(--purple); }
+.badge-web    { background: var(--blue-lt);   color: var(--blue-dk); }
+.badge-data   { background: var(--amber-lt);  color: var(--amber); }
+
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px 18px;
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 16px;
+}
