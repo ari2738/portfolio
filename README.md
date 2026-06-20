@@ -48,7 +48,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Backend runs at: http://localhost:5000
 
 ### 2. Frontend (React)
 
@@ -58,7 +57,6 @@ npm install
 npm run dev
 ```
 
-Frontend runs at: http://localhost:5173
 
 ---
 
