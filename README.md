@@ -3,6 +3,39 @@
 React + Flask + PostgreSQL | Deployed on netlify + Render
 
 ---
+# Abirami Shanmugam — Personal Portfolio
+
+A full-stack personal portfolio website built to showcase my projects, skills, and experience as a BE CSE student. The site is fully dynamic — all project and skill data is stored in a PostgreSQL database and served through a REST API, with a built-in admin dashboard to add or update content without touching code.
+
+🔗 **Live Site:**
+https://portfiiii.netlify.app
+🔗 **Backend API:** https://portfolio-2-jkvm.onrender.com
+🔗 **Source Code:** https://github.com/ari2738/portfolio
+
+---
+
+## What it does
+
+- Displays my projects with filtering by category (Machine Learning, Full-Stack, Data Engineering)
+- Shows my technical skills grouped by domain with proficiency levels
+- Lists my education and achievements
+- Includes a working contact form — messages are saved to the database
+- Has a private `/admin` dashboard to add, edit, or delete projects and skills, and view incoming messages, all without editing code
+
+---
+
+## Tech Stack
+
+**Frontend:** React.js, Vite, React Router, Axios
+**Backend:** Flask (Python), Flask-SQLAlchemy, Flask-CORS
+**Database:** PostgreSQL
+**Deployment:** Netlify (frontend), Render (backend + database)
+
+---
+
+## How it works
+
+The React frontend fetches data from a Flask REST API, which reads and writes to a PostgreSQL database. Adding a project through the Admin Panel immediately reflects on the live portfolio — no redeployment needed, since the data is dynamic, not hardcoded.
 
 ## Folder Structure
 
